@@ -1,0 +1,52 @@
+.container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.achiever-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.achiever-card {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 15px;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.achiever-card:hover {
+    transform: scale(1.05);
+}
+
+.achiever-name {
+    font-size: 1.5rem;
+    color: #2980b9;
+    margin: 10px 0;
+}
+
+.achiever-description {
+    font-size: 1rem;
+    color: #7f8c8d;
+}
+
+.achiever-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
